@@ -29,7 +29,7 @@
      </property>
     </widget>
    </item>
-   <item row="1" column="0">
+   <item row="2" column="0">
     <widget class="PyDMRelatedDisplayButton" name="devPanelExample">
      <property name="toolTip">
       <string/>
@@ -40,6 +40,21 @@
      <property name="filenames" stdset="0">
       <stringlist>
        <string>example/example.py</string>
+      </stringlist>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="PyDMRelatedDisplayButton" name="JanicesDevPanel">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Janice's Dev Panel</string>
+     </property>
+     <property name="filenames" stdset="0">
+      <stringlist>
+       <string>jnelson/devPaneljnelson.ui</string>
       </stringlist>
      </property>
     </widget>
