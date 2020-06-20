@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>640</width>
+    <height>480</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,32 +15,29 @@
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <item row="0" column="0">
-    <widget class="PyDMRelatedDisplayButton" name="devPanelLisa">
+    <widget class="PyDMPushButton" name="testButton">
      <property name="toolTip">
       <string/>
      </property>
      <property name="text">
-      <string>Lisa's Dev Panel</string>
-     </property>
-     <property name="filenames" stdset="0">
-      <stringlist>
-       <string>lisa/devPanelLisa.ui</string>
-      </stringlist>
+      <string>Test Button</string>
      </property>
     </widget>
    </item>
    <item row="1" column="0">
-    <widget class="PyDMRelatedDisplayButton" name="devPanelExample">
+    <widget class="PyDMCheckbox" name="testCheckBox">
      <property name="toolTip">
       <string/>
      </property>
      <property name="text">
-      <string>Example Dev Panel</string>
+      <string>Test Checkbox</string>
      </property>
-     <property name="filenames" stdset="0">
-      <stringlist>
-       <string>example/example.py</string>
-      </stringlist>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="PyDMLineEdit" name="outputBox">
+     <property name="toolTip">
+      <string/>
      </property>
     </widget>
    </item>
@@ -48,9 +45,19 @@
  </widget>
  <customwidgets>
   <customwidget>
-   <class>PyDMRelatedDisplayButton</class>
+   <class>PyDMLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>pydm.widgets.line_edit</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMPushButton</class>
    <extends>QPushButton</extends>
-   <header>pydm.widgets.related_display_button</header>
+   <header>pydm.widgets.pushbutton</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMCheckbox</class>
+   <extends>QCheckBox</extends>
+   <header>pydm.widgets.checkbox</header>
   </customwidget>
  </customwidgets>
  <resources/>
