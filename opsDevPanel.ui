@@ -24,7 +24,7 @@
      </property>
      <property name="filenames" stdset="0">
       <stringlist>
-       <string>~/zacarias/devPanel/devPanelLisa.ui</string>
+       <string>lisa/devPanelLisa.ui</string>
       </stringlist>
      </property>
     </widget>
