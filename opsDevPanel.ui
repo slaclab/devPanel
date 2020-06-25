@@ -14,21 +14,6 @@
    <string>Form</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
-   <item row="0" column="0">
-    <widget class="PyDMRelatedDisplayButton" name="devPanelLisa">
-     <property name="toolTip">
-      <string/>
-     </property>
-     <property name="text">
-      <string>Lisa's Dev Panel</string>
-     </property>
-     <property name="filenames" stdset="0">
-      <stringlist>
-       <string>lisa/devPanelLisa.ui</string>
-      </stringlist>
-     </property>
-    </widget>
-   </item>
    <item row="2" column="0">
     <widget class="PyDMRelatedDisplayButton" name="devPanelExample">
      <property name="toolTip">
@@ -44,7 +29,37 @@
      </property>
     </widget>
    </item>
+   <item row="0" column="0">
+    <widget class="PyDMRelatedDisplayButton" name="devPanelLisa">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Lisa's Dev Panel</string>
+     </property>
+     <property name="filenames" stdset="0">
+      <stringlist>
+       <string>lisa/devPanelLisa.ui</string>
+      </stringlist>
+     </property>
+    </widget>
+   </item>
    <item row="1" column="0">
+    <widget class="PyDMRelatedDisplayButton" name="devPanelAndy">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Andy's Top Secret Dev Panel</string>
+     </property>
+     <property name="filenames" stdset="0">
+      <stringlist>
+       <string>andy/devPanelAndy.ui</string>
+      </stringlist>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
     <widget class="PyDMRelatedDisplayButton" name="JanicesDevPanel">
      <property name="toolTip">
       <string/>
