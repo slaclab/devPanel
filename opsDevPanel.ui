@@ -59,6 +59,21 @@
      </property>
     </widget>
    </item>
+   <item row="3" column="0">
+    <widget class="PyDMRelatedDisplayButton" name="JanicesDevPanel">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Janice's Dev Panel</string>
+     </property>
+     <property name="filenames" stdset="0">
+      <stringlist>
+       <string>jnelson/devPaneljnelson.ui</string>
+      </stringlist>
+     </property>
+    </widget>
+   </item>
   </layout>
  </widget>
  <customwidgets>
