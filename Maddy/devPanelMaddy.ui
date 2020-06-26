@@ -24,7 +24,7 @@
      </property>
      <property name="commands" stdset="0">
       <stringlist>
-       <string>echo hello world!</string>
+       <string>pydm ~opsTools/devPanel/example/example.py</string>
       </stringlist>
      </property>
     </widget>
