@@ -1,0 +1,18 @@
+from pydm import Display
+from PyQt5 import QtGui
+
+class Destructor(Display):
+ 
+    def __init__(self, parent=None, args=None):
+      super(Destructor, self).__init__(parent=parent, args=args)
+      self.ui.ETW.clicked.connect(self.AddProgress)
+    
+    def ui_filename(self):
+      return 'devPanelAndy.ui'
+      
+    def AddProgress(self):
+      self.ui.progressBar.setValue(self.ui.progressBar.value() + 1)
+      
+Armageddon = Destructor
+    
+    

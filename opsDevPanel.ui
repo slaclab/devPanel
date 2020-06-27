@@ -14,21 +14,6 @@
    <string>Form</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
-   <item row="2" column="0">
-    <widget class="PyDMRelatedDisplayButton" name="devPanelExample">
-     <property name="toolTip">
-      <string/>
-     </property>
-     <property name="text">
-      <string>Example Dev Panel</string>
-     </property>
-     <property name="filenames" stdset="0">
-      <stringlist>
-       <string>example/example.py</string>
-      </stringlist>
-     </property>
-    </widget>
-   </item>
    <item row="0" column="0">
     <widget class="PyDMRelatedDisplayButton" name="devPanelLisa">
      <property name="toolTip">
@@ -44,6 +29,21 @@
      </property>
     </widget>
    </item>
+   <item row="2" column="0">
+    <widget class="PyDMRelatedDisplayButton" name="devPanelExample">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Example Dev Panel</string>
+     </property>
+     <property name="filenames" stdset="0">
+      <stringlist>
+       <string>example/example.py</string>
+      </stringlist>
+     </property>
+    </widget>
+   </item>
    <item row="1" column="0">
     <widget class="PyDMRelatedDisplayButton" name="devPanelAndy">
      <property name="toolTip">
@@ -54,7 +54,8 @@
      </property>
      <property name="filenames" stdset="0">
       <stringlist>
-       <string>andy/devPanelAndy.ui</string>
+       <string>/home/physics/aausherm/devPanel/andy/MyFirstCode.py</string>
+       <string>xterm -T ETW</string>
       </stringlist>
      </property>
     </widget>
