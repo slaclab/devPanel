@@ -168,7 +168,7 @@
      </property>
      <property name="filenames" stdset="0">
       <stringlist>
-       <string>Maddy/devPanelMaddy.ui</string>
+       <string>Maddy/devPanelMaddy.py</string>
       </stringlist>
      </property>
     </widget>

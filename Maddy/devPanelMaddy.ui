@@ -14,6 +14,16 @@
    <string>Form</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="PyDMPushButton" name="WIZARD">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Click here to become a Wizard today!</string>
+     </property>
+    </widget>
+   </item>
    <item row="0" column="0">
     <widget class="PyDMShellCommand" name="Maddyshellcommand">
      <property name="toolTip">
@@ -29,13 +39,45 @@
      </property>
     </widget>
    </item>
+   <item row="2" column="0">
+    <widget class="PyDMCheckbox" name="what_wizard">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="text">
+      <string>What type of wizard are you?</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="PyDMLineEdit" name="wizard_text">
+     <property name="toolTip">
+      <string/>
+     </property>
+    </widget>
+   </item>
   </layout>
  </widget>
  <customwidgets>
   <customwidget>
+   <class>PyDMLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>pydm.widgets.line_edit</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMPushButton</class>
+   <extends>QPushButton</extends>
+   <header>pydm.widgets.pushbutton</header>
+  </customwidget>
+  <customwidget>
    <class>PyDMShellCommand</class>
    <extends>QPushButton</extends>
    <header>pydm.widgets.shell_command</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMCheckbox</class>
+   <extends>QCheckBox</extends>
+   <header>pydm.widgets.checkbox</header>
   </customwidget>
  </customwidgets>
  <resources/>
