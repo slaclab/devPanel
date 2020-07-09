@@ -14,21 +14,6 @@
    <string>Form</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
-   <item row="3" column="0">
-    <widget class="PyDMRelatedDisplayButton" name="devPanelExample">
-     <property name="toolTip">
-      <string/>
-     </property>
-     <property name="text">
-      <string>Example Dev Panel</string>
-     </property>
-     <property name="filenames" stdset="0">
-      <stringlist>
-       <string>example/example.py</string>
-      </stringlist>
-     </property>
-    </widget>
-   </item>
    <item row="1" column="0">
     <widget class="PyDMRelatedDisplayButton" name="devPanelAndy">
      <property name="toolTip">
@@ -40,6 +25,21 @@
      <property name="filenames" stdset="0">
       <stringlist>
        <string>andy/devPanelAndy.ui</string>
+      </stringlist>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="PyDMRelatedDisplayButton" name="devPanelExample">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Example Dev Panel</string>
+     </property>
+     <property name="filenames" stdset="0">
+      <stringlist>
+       <string>example/example.py</string>
       </stringlist>
      </property>
     </widget>
@@ -169,6 +169,21 @@
      <property name="filenames" stdset="0">
       <stringlist>
        <string>Maddy/devPanelMaddy.py</string>
+      </stringlist>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_2">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Sebastian's Dev Panel</string>
+     </property>
+     <property name="filenames" stdset="0">
+      <stringlist>
+       <string>aderhold/devPanelAderhold.ui</string>
       </stringlist>
      </property>
     </widget>
