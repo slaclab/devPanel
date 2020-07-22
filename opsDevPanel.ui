@@ -14,21 +14,6 @@
    <string>Form</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
-   <item row="1" column="0">
-    <widget class="PyDMRelatedDisplayButton" name="devPanelAndy">
-     <property name="toolTip">
-      <string/>
-     </property>
-     <property name="text">
-      <string>Andy's Top Secret Dev Panel</string>
-     </property>
-     <property name="filenames" stdset="0">
-      <stringlist>
-       <string>andy/devPanelAndy.ui</string>
-      </stringlist>
-     </property>
-    </widget>
-   </item>
    <item row="3" column="0">
     <widget class="PyDMRelatedDisplayButton" name="devPanelExample">
      <property name="toolTip">
@@ -44,32 +29,17 @@
      </property>
     </widget>
    </item>
-   <item row="0" column="0">
-    <widget class="PyDMRelatedDisplayButton" name="devPanelLisa">
+   <item row="1" column="0">
+    <widget class="PyDMRelatedDisplayButton" name="devPanelAndy">
      <property name="toolTip">
       <string/>
      </property>
      <property name="text">
-      <string>Lisa's Dev Panel</string>
+      <string>Andy's Top Secret Dev Panel</string>
      </property>
      <property name="filenames" stdset="0">
       <stringlist>
-       <string>lisa/devPanelLisa.ui</string>
-      </stringlist>
-     </property>
-    </widget>
-   </item>
-   <item row="4" column="0">
-    <widget class="PyDMRelatedDisplayButton" name="JanicesDevPanel">
-     <property name="toolTip">
-      <string/>
-     </property>
-     <property name="text">
-      <string>Janice's Dev Panel</string>
-     </property>
-     <property name="filenames" stdset="0">
-      <stringlist>
-       <string>jnelson/devPaneljnelson.ui</string>
+       <string>andy/devPanelAndy.ui</string>
       </stringlist>
      </property>
     </widget>
@@ -173,6 +143,36 @@
      </property>
     </widget>
    </item>
+   <item row="4" column="0">
+    <widget class="PyDMRelatedDisplayButton" name="JanicesDevPanel">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Janice's Dev Panel</string>
+     </property>
+     <property name="filenames" stdset="0">
+      <stringlist>
+       <string>jnelson/devPaneljnelson.ui</string>
+      </stringlist>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="PyDMRelatedDisplayButton" name="devPanelLisa">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Lisa's Dev Panel</string>
+     </property>
+     <property name="filenames" stdset="0">
+      <stringlist>
+       <string>lisa/devPanelLisa.ui</string>
+      </stringlist>
+     </property>
+    </widget>
+   </item>
    <item row="6" column="0">
     <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_2">
      <property name="toolTip">
@@ -184,6 +184,21 @@
      <property name="filenames" stdset="0">
       <stringlist>
        <string>aderhold/devPanelAderhold.ui</string>
+      </stringlist>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="PyDMRelatedDisplayButton" name="devPanelBob">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Bob's Baby Steps</string>
+     </property>
+     <property name="filenames" stdset="0">
+      <stringlist>
+       <string>blegg/devPanelBob.ui</string>
       </stringlist>
      </property>
     </widget>
