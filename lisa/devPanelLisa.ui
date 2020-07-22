@@ -14,13 +14,6 @@
    <string>Form</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
-   <item row="1" column="0">
-    <widget class="PyDMShellCommand" name="PyDMShellCommand_2">
-     <property name="toolTip">
-      <string/>
-     </property>
-    </widget>
-   </item>
    <item row="0" column="0">
     <widget class="PyDMShellCommand" name="rtbsa">
      <property name="toolTip">
@@ -36,10 +29,18 @@
      </property>
     </widget>
    </item>
-   <item row="2" column="0">
-    <widget class="PyDMShellCommand" name="PyDMShellCommand_3">
+   <item row="1" column="0">
+    <widget class="PyDMShellCommand" name="testShellCommand">
      <property name="toolTip">
       <string/>
+     </property>
+     <property name="text">
+      <string>Test Shell Command</string>
+     </property>
+     <property name="commands" stdset="0">
+      <stringlist>
+       <string>pydm ~/opsTools/devPanel/example/example.py</string>
+      </stringlist>
      </property>
     </widget>
    </item>
