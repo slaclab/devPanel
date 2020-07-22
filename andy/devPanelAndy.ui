@@ -44,7 +44,7 @@
     </rect>
    </property>
    <property name="value">
-    <number>26</number>
+    <number>27</number>
    </property>
    <property name="textDirection">
     <enum>QProgressBar::TopToBottom</enum>
