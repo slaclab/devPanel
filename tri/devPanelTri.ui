@@ -6,40 +6,25 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>640</width>
-    <height>480</height>
+    <width>200</width>
+    <height>250</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Tri's Dev Panel</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <item row="0" column="0">
-    <widget class="PyDMShellCommand" name="rtbsa">
-     <property name="toolTip">
-      <string/>
-     </property>
-     <property name="text">
-      <string>RTBSA</string>
-     </property>
-     <property name="commands" stdset="0">
-      <stringlist>
-       <string>python ~/zacarias/rtbsa/rtbsa.py</string>
-      </stringlist>
-     </property>
-    </widget>
-   </item>
-   <item row="1" column="0">
     <widget class="PyDMShellCommand" name="testShellCommand">
      <property name="toolTip">
       <string/>
      </property>
      <property name="text">
-      <string>Test Shell Command</string>
+      <string>PyGDET</string>
      </property>
      <property name="commands" stdset="0">
       <stringlist>
-       <string>pydm ~/opsTools/devPanel/example/example.py</string>
+       <string>xterm -T &quot;PyGDET&quot; -e /usr/local/lcls/tools/python/toolbox/PyGDET2/PyGDET2.py</string>
       </stringlist>
      </property>
     </widget>

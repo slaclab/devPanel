@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>640</width>
-    <height>480</height>
+    <width>400</width>
+    <height>300</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,27 +15,12 @@
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <item row="0" column="0">
-    <widget class="PyDMShellCommand" name="rtbsa">
+    <widget class="PyDMShellCommand" name="BobsButton">
      <property name="toolTip">
       <string/>
      </property>
      <property name="text">
-      <string>RTBSA</string>
-     </property>
-     <property name="commands" stdset="0">
-      <stringlist>
-       <string>python ~/zacarias/rtbsa/rtbsa.py</string>
-      </stringlist>
-     </property>
-    </widget>
-   </item>
-   <item row="1" column="0">
-    <widget class="PyDMShellCommand" name="testShellCommand">
-     <property name="toolTip">
-      <string/>
-     </property>
-     <property name="text">
-      <string>Test Shell Command</string>
+      <string>Bob's BabyStps</string>
      </property>
      <property name="commands" stdset="0">
       <stringlist>

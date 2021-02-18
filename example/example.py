@@ -20,4 +20,3 @@ class Example(Display):
                                   if self.ui.testCheckBox.isChecked()
                                   else "not checked"))
 
-intelclass = Example
