@@ -7,29 +7,14 @@
     <x>0</x>
     <y>0</y>
     <width>400</width>
-    <height>322</height>
+    <height>350</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
   <layout class="QGridLayout" name="gridLayout">
-   <item row="5" column="0">
-    <widget class="PyDMRelatedDisplayButton" name="JanicesDevPanel">
-     <property name="toolTip">
-      <string/>
-     </property>
-     <property name="text">
-      <string>Janice's Dev Panel</string>
-     </property>
-     <property name="filenames" stdset="0">
-      <stringlist>
-       <string>jnelson/devPaneljnelson.ui</string>
-      </stringlist>
-     </property>
-    </widget>
-   </item>
-   <item row="6" column="0">
+   <item row="7" column="0">
     <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton">
      <property name="palette">
       <palette>
@@ -128,67 +113,7 @@
      </property>
     </widget>
    </item>
-   <item row="2" column="0">
-    <widget class="PyDMRelatedDisplayButton" name="devPanelAndy">
-     <property name="toolTip">
-      <string/>
-     </property>
-     <property name="text">
-      <string>Andy's Top Secret Dev Panel</string>
-     </property>
-     <property name="filenames" stdset="0">
-      <stringlist>
-       <string>andy/devPanelAndy.ui</string>
-      </stringlist>
-     </property>
-    </widget>
-   </item>
    <item row="9" column="0">
-    <widget class="PyDMRelatedDisplayButton" name="devPanelBob">
-     <property name="toolTip">
-      <string/>
-     </property>
-     <property name="text">
-      <string>Bob's Baby Steps</string>
-     </property>
-     <property name="filenames" stdset="0">
-      <stringlist>
-       <string>blegg/devPanelBob.ui</string>
-      </stringlist>
-     </property>
-    </widget>
-   </item>
-   <item row="13" column="0">
-    <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_3">
-     <property name="toolTip">
-      <string/>
-     </property>
-     <property name="text">
-      <string>Tri's Bottom Secret Dev Panel</string>
-     </property>
-     <property name="filenames" stdset="0">
-      <stringlist>
-       <string>tri/devPanelTri.ui</string>
-      </stringlist>
-     </property>
-    </widget>
-   </item>
-   <item row="14" column="0">
-    <widget class="PyDMRelatedDisplayButton" name="devPanelExample">
-     <property name="toolTip">
-      <string/>
-     </property>
-     <property name="text">
-      <string>The Actual Bottom Dev Panel</string>
-     </property>
-     <property name="filenames" stdset="0">
-      <stringlist>
-       <string>example/example.py</string>
-      </stringlist>
-     </property>
-    </widget>
-   </item>
-   <item row="8" column="0">
     <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_2">
      <property name="toolTip">
       <string/>
@@ -203,59 +128,52 @@
      </property>
     </widget>
    </item>
-   <item row="1" column="0">
-    <widget class="PyDMRelatedDisplayButton" name="devPanelLisa">
-     <property name="palette">
-      <palette>
-       <active>
-        <colorrole role="ButtonText">
-         <brush brushstyle="SolidPattern">
-          <color alpha="255">
-           <red>255</red>
-           <green>0</green>
-           <blue>127</blue>
-          </color>
-         </brush>
-        </colorrole>
-       </active>
-       <inactive>
-        <colorrole role="ButtonText">
-         <brush brushstyle="SolidPattern">
-          <color alpha="255">
-           <red>255</red>
-           <green>0</green>
-           <blue>127</blue>
-          </color>
-         </brush>
-        </colorrole>
-       </inactive>
-       <disabled>
-        <colorrole role="ButtonText">
-         <brush brushstyle="SolidPattern">
-          <color alpha="255">
-           <red>190</red>
-           <green>190</green>
-           <blue>190</blue>
-          </color>
-         </brush>
-        </colorrole>
-       </disabled>
-      </palette>
-     </property>
+   <item row="15" column="0">
+    <widget class="PyDMRelatedDisplayButton" name="devPanelExample">
      <property name="toolTip">
       <string/>
      </property>
      <property name="text">
-      <string>Lisa's Dev Panel</string>
+      <string>The Actual Bottom Dev Panel</string>
      </property>
      <property name="filenames" stdset="0">
       <stringlist>
-       <string>lisa/devPanelLisa.ui</string>
+       <string>example/example.py</string>
       </stringlist>
      </property>
     </widget>
    </item>
-   <item row="4" column="0">
+   <item row="6" column="0">
+    <widget class="PyDMRelatedDisplayButton" name="JanicesDevPanel">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Janice's Dev Panel</string>
+     </property>
+     <property name="filenames" stdset="0">
+      <stringlist>
+       <string>jnelson/devPaneljnelson.ui</string>
+      </stringlist>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="0">
+    <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_3">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Tri's Bottom Secret Dev Panel</string>
+     </property>
+     <property name="filenames" stdset="0">
+      <stringlist>
+       <string>tri/devPanelTri.ui</string>
+      </stringlist>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
     <widget class="PyDMRelatedDisplayButton" name="PyDMRelatedDisplayButton_4">
      <property name="palette">
       <palette>
@@ -339,6 +257,126 @@
       <stringlist>
        <string>derikka/devPanelDerikka.ui</string>
       </stringlist>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="PyDMRelatedDisplayButton" name="devPanelAndy">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Andy's Top Secret Dev Panel</string>
+     </property>
+     <property name="filenames" stdset="0">
+      <stringlist>
+       <string>andy/devPanelAndy.ui</string>
+      </stringlist>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="PyDMRelatedDisplayButton" name="devPanelLisa">
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>0</green>
+           <blue>127</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>0</green>
+           <blue>127</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>190</red>
+           <green>190</green>
+           <blue>190</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Lisa's Dev Panel</string>
+     </property>
+     <property name="filenames" stdset="0">
+      <stringlist>
+       <string>lisa/devPanelLisa.ui</string>
+      </stringlist>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="0">
+    <widget class="PyDMRelatedDisplayButton" name="devPanelBob">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Bob's Baby Steps</string>
+     </property>
+     <property name="filenames" stdset="0">
+      <stringlist>
+       <string>blegg/devPanelBob.ui</string>
+      </stringlist>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="PyDMRelatedDisplayButton" name="devPanelScott">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="text">
+      <string>Scott's Dev Panel (of secrets)</string>
+     </property>
+     <property name="filenames" stdset="0">
+      <stringlist>
+       <string>smarino/devPanelScott.ui</string>
+      </stringlist>
+     </property>
+     <property name="titles" stdset="0">
+      <stringlist/>
+     </property>
+     <property name="showIcon" stdset="0">
+      <bool>true</bool>
+     </property>
+     <property name="macros" stdset="0">
+      <stringlist>
+       <string>{}</string>
+      </stringlist>
+     </property>
+     <property name="openInNewWindow" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="passwordProtected" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="password" stdset="0">
+      <string/>
+     </property>
+     <property name="protectedPassword" stdset="0">
+      <string/>
      </property>
     </widget>
    </item>
